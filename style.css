@@ -206,3 +206,70 @@ nav ul li a {
 .switcher>li:hover {
     color: indianred;
 }
+
+/* usage */
+.usage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    overflow: hidden;
+    margin-bottom: 100px;
+    height: auto;
+    width: 100%;
+}
+
+.usage-image {
+    position: relative;
+    display: flex;
+    width: 50%;
+    height: auto;
+}
+
+.usage-image>img {
+    margin-left: 150px;
+    position: absolute;
+}
+
+.usage-image>div {
+    background: hsl(231, 69%, 60%);
+    height: 350px;
+    width: 90%;
+    position: relative;
+    z-index: -1;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    overflow: hidden;
+    margin-top: 80px;
+}
+
+.usage-text {
+    width: 40%;
+    height: auto;
+}
+
+.usage-text>h1 {
+    width: 75%;
+    color: #222;
+}
+
+.usage-text>p {
+    margin-top: 30px;
+    width: 80%;
+    font-size: 1.2rem;
+    color: hsl(229, 8%, 60%);
+    line-height: 1.5;
+}
+
+.usage-text>button {
+    margin-top: 30px;
+    width: 20%;
+    height: 50px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    background: hsl(231, 69%, 60%);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
