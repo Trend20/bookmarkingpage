@@ -31,6 +31,7 @@ header {
 .logo {
     margin-left: 100px;
     width: 30%;
+    cursor: pointer;
 }
 
 nav {
@@ -60,6 +61,10 @@ nav ul li a {
     text-align: center;
 }
 
+nav ul li a:hover {
+    color: hsl(0, 94%, 66%);
+}
+
 #login {
     background: hsl(0, 94%, 66%);
     height: 40px;
@@ -70,10 +75,16 @@ nav ul li a {
     border: none;
     border-radius: 7px;
     outline: none;
+    align-items: center;
+    text-transform: uppercase;
+    color: #f7f3f3;
+    cursor: pointer;
 }
 
-#login>a {
-    color: #fff;
+#login:hover {
+    border: 2px solid hsl(0, 94%, 66%);
+    background: transparent;
+    color: tomato;
 }
 
 /* hero */
@@ -115,7 +126,7 @@ nav ul li a {
 
 #chrome {
     height: 50px;
-    width: 25%;
+    width: 40%;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -125,9 +136,15 @@ nav ul li a {
     font-weight: bold;
 }
 
+#chrome:hover {
+    background: transparent;
+    border: 2px solid hsl(231, 69%, 60%);
+    color: hsl(231, 69%, 60%);
+}
+
 #firefox {
     height: 50px;
-    width: 25%;
+    width: 40%;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -137,6 +154,13 @@ nav ul li a {
     box-shadow: 1px 1px 1px 1px rgb(65, 63, 63);
     font-weight: bold;
     margin-left: 20px;
+}
+
+#firefox:hover {
+    color: hsl(229, 8%, 60%);
+    background: transparent;
+    border: 2px solid hsl(229, 8%, 60%);
+    box-shadow: none;
 }
 
 .hero-image {
@@ -265,7 +289,7 @@ nav ul li a {
     line-height: 1.5;
 }
 
-.usage-text>button {
+.info {
     margin-top: 30px;
     width: 20%;
     height: 50px;
@@ -369,7 +393,7 @@ nav ul li a {
 
 .browser>button:hover {
     background: transparent;
-    border: 1px solid hsl(231, 69%, 60%);
+    border: 2px solid hsl(231, 69%, 60%);
     color: hsl(231, 69%, 60%);
 }
 
@@ -417,6 +441,8 @@ nav ul li a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding-top: 70px;
 }
 
 .head {
@@ -425,10 +451,139 @@ nav ul li a {
     justify-content: space-between;
     align-items: center;
     width: 50%;
+    cursor: pointer;
+}
+
+.head>h3 {
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.head:hover {
+    color: tomato;
 }
 
 .questions>p {
     width: 50%;
     margin-top: 30px;
     line-height: 2;
+    display: none;
+}
+
+.f-quiz>button {
+    width: 8%;
+    margin-top: 50px;
+}
+
+.updates {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: hsl(231, 69%, 60%);
+    margin-top: 150px;
+    height: 400px;
+}
+
+.updates>p {
+    margin-top: 70px;
+    text-transform: uppercase;
+    color: #fff !important;
+    font-size: 1.2rem;
+    font-weight: 500;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.updates>h3 {
+    color: #fff;
+    font-size: 2rem;
+    margin-top: 30px;
+    width: 35%;
+    text-align: center;
+    letter-spacing: 1.2px;
+}
+
+.updates>form {
+    margin-top: 30px;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.updates>form input {
+    width: 40%;
+    height: 40px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    font-weight: bold;
+}
+
+#contact {
+    width: 10%;
+    height: 40px;
+    margin-left: 10px;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #fff;
+    background: hsl(0, 94%, 66%);
+}
+
+#contact:hover {
+    background: #f7f3f3;
+    color: hsl(0, 94%, 66%);
+    border: 2px solid hsl(0, 94%, 66%);
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: hsl(229, 31%, 21%);
+}
+
+footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 70px;
+}
+
+footer ul li {
+    list-style: none;
+    padding: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.8;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    margin-right: 50px;
+}
+
+.icons>img {
+    padding-right: 50px;
+    cursor: pointer;
+}
+
+footer ul li:hover,
+icons:hover {
+    color: hsl(0, 94%, 66%);
+    fill: hsl(0, 94%, 66%);
 }

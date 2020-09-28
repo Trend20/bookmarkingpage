@@ -34,7 +34,7 @@
                     <li><a href="#">Features</a></li>
                     <li><a href="#">Pricing</a></li>
                     <li><a href="#">Contact</a></li>
-                    <li id="login"><a href="#">Login</a></li>
+                    <button id="login">Login</button>
                 </ul>
             </nav>
         </header>
@@ -84,7 +84,7 @@
                     Organize your bookmarks however you like. Our simple drag-and-drop interface
                     gives you complete control over how you manage your favourite sites.
                 </p>
-                <button>More Info</button>
+                <button class="info">More Info</button>
             </div>
             <!-- Intelligent search
 
@@ -109,7 +109,7 @@
                 </p>
             </div>
             <div class="d-extensions">
-                <div class="browser">
+                <div class="browser chrome">
                     <img src="./images/logo-chrome.svg" alt="">
                     <h3>Add to Chrome</h3>
                     <p>Minimum version 62</p>
@@ -117,7 +117,7 @@
                     <button> Add & Install Extension</button>
                 </div>
 
-                <div class="browser">
+                <div class="browser firefox">
                     <img src="./images/logo-firefox.svg" alt="">
                     <h3>Add to Firefox</h3>
                     <p>Minimum version 55</p>
@@ -125,7 +125,7 @@
                     <button> Add & Install Extension</button>
                 </div>
 
-                <div class="browser">
+                <div class="browser Opera">
                     <img src="./images/logo-opera.svg" alt="">
                     <h3>Add to Opera</h3>
                     <p>Minimum version 46</p>
@@ -138,79 +138,89 @@
         <div class="f-quiz">
             <div class="quiz-text">
                 <h1>Frequently Asked Questions</h1>
-                <p>
+                <p class="content">
                     Here are some of our FAQs. If you have any other questions you’d like
                     answered please feel free to email us.
                 </p>
             </div>
             <div class="quiz">
+                <hr>
                 <div id="question1" class="questions">
                     <div class="head">
                         <h3> What is Bookmark?</h3>
                         <img src="./images/icon-arrow.svg" alt="">
                     </div>
-                    <p>
+                    <p class="content">
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt
                         justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.
                     </p>
                 </div>
+                <hr>
 
                 <div id="question2" class="questions">
                     <div class="head">
                         <h3>How can I request a new browser?</h3>
                         <img src="./images/icon-arrow.svg" alt="">
                     </div>
-                    <p>
+                    <p class="content">
                         Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula.
                         Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa,
                         ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies.
                         Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.
                     </p>
                 </div>
+                <hr>
 
                 <div id="question3" class="questions">
                     <div class="head">
                         <h3> Is there a mobile app?</h3>
                         <img src="./images/icon-arrow.svg" alt="">
                     </div>
-                    <p>
+                    <p class="content">
                         Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum
                         urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed
                         sollicitudin ex et ultricies bibendum.
                     </p>
                 </div>
+                <hr>
 
                 <div id="question4" class="questions">
                     <div class="head">
                         <h3>What about other Chromium browsers?</h3>
                         <img src="./images/icon-arrow.svg" alt="">
                     </div>
-                    <p>
+                    <p class="content">
                         Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam
                         vitae neque eget nisl gravida pellentesque non ut velit.
                     </p>
                 </div>
             </div>
-            <button>More Info</button>
+            <hr>
+            <button class="info">More Info</button>
         </div>
+
+        <div class="updates">
+            <p> 35,000+ already joined</p>
+            <h3>Stay up-to-date with what we’re doing</h3>
+            <form action="">
+                <input type="email" placeholder="Enter your email" required>
+                <button id="contact">Contact Us</button>
+            </form>
+        </div>
+        <footer>
+            <ul>
+                <li id="footer-img"><img src="./images/logo-bookmark.svg" alt=""></li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Contact</li>
+            </ul>
+            <div class="icons">
+                <img src="./images/icon-facebook.svg" alt="">
+                <img src="./images/icon-twitter.svg" alt="">
+            </div>
+        </footer>
     </div>
-
-    35,000+ already joined
-
-    Stay up-to-date with what we’re doing
-
-    Contact Us
-
-    Features
-    Pricing
-    Contact
-
-    <footer>
-        <p class="attribution">
-            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-            Coded by <a href="#">Your Name Here</a>.
-        </p>
-    </footer>
+    <script src="./main.js"></script>
 </body>
 
 </html>
