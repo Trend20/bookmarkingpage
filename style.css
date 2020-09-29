@@ -911,15 +911,15 @@ icons:hover {
 
     .usage-image>img {
         position: absolute;
-        top: 25%;
-        left: -50%;
+        top: 35%;
+        left: -60%;
         max-width: 80%;
         height: auto;
     }
 
     .usage-image>div {
         background: hsl(231, 69%, 60%);
-        height: 130px;
+        height: 120px;
         width: 90%;
         position: relative;
         z-index: -1;
@@ -1412,12 +1412,11 @@ icons:hover {
     }
 
     .hamburger>img {
-        width: 10%;
+        width: 50%;
         cursor: pointer;
         display: flex;
         justify-content: center;
         align-items: center;
-        position: fixed;
     }
 
     .hero {
@@ -1509,7 +1508,6 @@ icons:hover {
         width: 100%;
         margin: auto;
         margin-right: 50px;
-        height: auto;
     }
 
     .hero-image>img {
@@ -1607,13 +1605,12 @@ icons:hover {
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: auto;
     }
 
     .usage-image>img {
         position: absolute;
-        top: 25%;
-        left: -35%;
+        top: 20%;
+        left: -25%;
         max-width: 80%;
         height: auto;
     }
@@ -1648,7 +1645,7 @@ icons:hover {
         font-size: 1.8rem;
         justify-content: center;
         align-items: center;
-        margin-left: 10px;
+        margin-left: 50px;
         height: auto;
     }
 
