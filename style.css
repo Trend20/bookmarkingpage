@@ -1512,11 +1512,13 @@ icons:hover {
 
     .hero-image>img {
         max-width: 95%;
+        height: 300px;
+        position: relative;
     }
 
     .hero-image>div {
         background: hsl(231, 69%, 60%);
-        height: 180px;
+        height: 250px;
         width: 100%;
         position: absolute;
         z-index: -1;
