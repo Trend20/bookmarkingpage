@@ -704,7 +704,7 @@ icons:hover {
         flex-direction: column;
         width: 15%;
         right: 3%;
-        top: -12%;
+        top: -5%;
         height: 50px;
         align-items: center;
         justify-content: center;
@@ -1405,18 +1405,19 @@ icons:hover {
         flex-direction: column;
         width: 12%;
         right: 3%;
-        top: -18%;
+        top: -5%;
         height: 50px;
         align-items: center;
         justify-content: center;
     }
 
     .hamburger>img {
-        width: 50%;
+        width: 10%;
         cursor: pointer;
         display: flex;
         justify-content: center;
         align-items: center;
+        position: fixed;
     }
 
     .hero {

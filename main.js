@@ -1,9 +1,12 @@
-const myHead = document.querySelectorAll('.head');
+const hamburger = document.querySelector('.hamburger');
+const navigation = document.querySelector('.nav');
 
-const myContent = document.querySelectorAll('.content');
+hamburger.addEventListener('click', showNavigation);
 
-myHead.addEventListener('click', function() {
-    if (true) {
-        myContent.style.display = 'block';
+function showNavigation() {
+    if (navigation.style.display === "none") {
+        navigation.style.display = "block";
+    } else {
+        navigation.style.display = "none";
     }
-});
+}
