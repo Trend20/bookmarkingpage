@@ -1512,7 +1512,6 @@ icons:hover {
 
     .hero-image>img {
         max-width: 95%;
-        height: auto;
     }
 
     .hero-image>div {
@@ -1609,7 +1608,7 @@ icons:hover {
 
     .usage-image>img {
         position: absolute;
-        top: 20%;
+        top: 18%;
         left: -25%;
         max-width: 80%;
         height: auto;
@@ -1645,7 +1644,7 @@ icons:hover {
         font-size: 1.8rem;
         justify-content: center;
         align-items: center;
-        margin-left: 50px;
+        display: flex;
         height: auto;
     }
 
