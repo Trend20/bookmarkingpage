@@ -1618,7 +1618,7 @@ icons:hover {
 
     .usage-image>div {
         background: hsl(231, 69%, 60%);
-        height: 180px;
+        height: 200px;
         width: 90%;
         position: relative;
         z-index: -1;
